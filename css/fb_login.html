@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook-Login or Sign-up</title>
+	<style type="text/css">
+		
+		.main{
+			background-color: #eaeaf3;
+			height: 600px;
+		}
+		.header{
+			background-color: #28289d;
+			height: 100px;
+		}
+		.facebook{
+			padding-left: 100px;
+			font-size: 46px;
+    		font-weight: bolder;
+    		color: white;
+    		font-family: serif;
+		}
+		.email{
+			color: white;
+			margin-left: 500px;
+		}
+		.password{
+			color: white;
+			margin-left: 10px;
+		}
+		.butt{
+			background-color: green;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="facebook" style="display: inline-block;">
+				facebook
+			</div>
+			<div class="email" style="display: inline-block;">
+				<p>Email or phone</p>
+				<p><input type="text" name="username"></p>
+			</div>
+			<div class="password" style="display: inline-block;">
+				<p>Password</p>		
+				<p><input type="password" name="password"></p>
+			</div>
+			<div class="button" style="display: inline-block; margin-left: 10px;">
+				<input type="submit" name="" value="Log in" style="background-color: #5f5feb; color: white;">
+			</div>
+		</div>
+		<div class="logo" style="margin-left: 200px; margin-top: 75px; display: inline-block; border-top: 1px; width: 400px; height : 300px; ">
+			<img src="images/fblogo2.jpg" >
+		</div>
+		<div class="log" style="display: inline-block; margin-left: 200px;">
+			<h1>Create an account</h1>
+			<h3>it's quick and easy</h3>
+			<form>
+				<div>
+				<table>
+					<tr>
+					<td><input type="text" name="" placeholder="First name"> </td>
+					<td><input type="text" name="" placeholder="Surname" required=""></td>
+					</tr>
+					<tr>
+					<td colspan="2"><input type="text" name="" placeholder="Mobile number or email address" style="padding-right: 205px;"></td>
+					</tr>
+					<tr>
+					<td colspan="2"><input type="password" name="" placeholder="New Password" style="padding-right: 205px;"></td>
+					</tr>
+					<tr>
+					<td>Birthday</td>
+					</tr>
+					<tr>
+					<td><input type="date" name=""></td>
+					</tr>
+					<tr>
+					<td>Gender</td>
+					</tr>
+					<tr> 
+					<td><input type="radio" name="g">Female
+						 <input type="radio" name="g">Male
+						 <input type="radio" name="g">Custom</td>
+					</tr>
+				</table></div>
+				<div>
+					<p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie<br>Policy. You may receive SMS notifications from us and<br>can opt out at any time</p>
+				</div>
+				<table>
+					<tr>
+						<th><input class="butt" type="submit" name="" ></th>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
